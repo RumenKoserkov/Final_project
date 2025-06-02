@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary,
+.btn-outline-primary {
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    transform: scale(1.03);
+}
